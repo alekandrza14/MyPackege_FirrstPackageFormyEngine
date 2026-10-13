@@ -1,0 +1,6 @@
+{
+  "format": 1,
+  "name": "MyPackege_FirrstPackageFormyEngine",
+  "engineVersion": "2.3",
+  "mainScene": "scenes/main.json"
+}

@@ -1,0 +1,270 @@
+{
+  "model": [
+    "assets/Cube.obj",
+    "assets/Cube.obj",
+    "assets/spherecube.4d",
+    null,
+    null
+  ],
+  "names": [
+    "Floor",
+    "Cube",
+    "Cube 1",
+    "Voxel",
+    "Object"
+  ],
+  "positions": [
+    {
+      "x": 0.0,
+      "y": -0.25,
+      "z": 5.60916,
+      "w": 0.0
+    },
+    {
+      "x": 3.2609615325927734,
+      "y": 6.459878444671631,
+      "z": 0.6341074109077454,
+      "w": 0.0
+    },
+    {
+      "x": 0.0,
+      "y": 2.023341178894043,
+      "z": 0.0,
+      "w": 0.2867647111415863
+    },
+    {
+      "x": 3.63189,
+      "y": 0.0,
+      "z": 3.23358,
+      "w": 0.0
+    },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -1.5098904371261597,
+      "w": 0.0
+    }
+  ],
+  "scales": [
+    {
+      "x": 8.0,
+      "y": 0.25,
+      "z": 8.0,
+      "w": 1.0
+    },
+    {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5,
+      "w": 1.0
+    },
+    {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0,
+      "w": 1.0
+    },
+    {
+      "x": 2.21776,
+      "y": 2.71181,
+      "z": 1.94978,
+      "w": 1.0
+    },
+    {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0,
+      "w": 1.0
+    }
+  ],
+  "colors": [
+    {
+      "r": 0.35,
+      "g": 0.4,
+      "b": 0.5
+    },
+    {
+      "r": 0.3,
+      "g": 0.7,
+      "b": 1
+    },
+    {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    },
+    {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0
+    },
+    {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    }
+  ],
+  "colliders": [
+    {
+      "type": "box"
+    },
+    {
+      "type": "box"
+    },
+    null,
+    {
+      "type": "voxel"
+    },
+    null
+  ],
+  "rigidbodies": [
+    null,
+    {
+      "mass": 1,
+      "freezeRotation": true
+    },
+    null,
+    null,
+    null
+  ],
+  "title": "MyGame",
+  "camera": {
+    "position": {
+      "x": 0,
+      "y": 3,
+      "z": 10
+    },
+    "pitch": 12,
+    "yaw": 0,
+    "controller": {
+      "size": [
+        0.1,
+        1.6,
+        0.1
+      ],
+      "center": [
+        0,
+        -0.6,
+        0
+      ],
+      "mass": 75.0,
+      "speed": 3.5,
+      "sprint": 7.0,
+      "jump": 5.0,
+      "script": "",
+      "mode": "walk"
+    }
+  },
+  "rotations": [
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  ],
+  "textures": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "scripts": [
+    [
+      "scripts/hzchtozascript.py"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "rotations4D": [
+    {
+      "xw": 0.0,
+      "yw": 0.0,
+      "zw": 0.0
+    },
+    {
+      "xw": 0.0,
+      "yw": 0.0,
+      "zw": 0.0
+    },
+    {
+      "xw": 0.0,
+      "yw": -11.3267240524292,
+      "zw": -185.11705017089844
+    },
+    {
+      "xw": 0.0,
+      "yw": 0.0,
+      "zw": 0.0
+    },
+    {
+      "xw": 0.0,
+      "yw": 0.0,
+      "zw": 0.0
+    }
+  ],
+  "layerSpacings": [
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "voxels": [
+    null,
+    null,
+    null,
+    "assets/vox.vox",
+    null
+  ],
+  "active": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "visible": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "omitModelInBuild": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "editorOnly": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ]
+}

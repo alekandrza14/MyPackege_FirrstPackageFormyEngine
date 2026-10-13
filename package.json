@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "engine": "MyEngine 2",
+  "engineVersion": "2.3",
+  "name": "MyPackege_FirrstPackageFormyEngine",
+  "scene": "scenes/main.json",
+  "files": [
+    {
+      "path": "assets/Cube.obj",
+      "bytes": 948,
+      "sha256": "f74218fedbc7e8fe8f294776bbb514814966ca35abaed1798224a41c92b6cdc5"
+    },
+    {
+      "path": "assets/spherecube.4d",
+      "bytes": 1366759,
+      "sha256": "7ec00bc7ac7022b59561c36718718e1885738e5eabc5e03f748512be06a3acce"
+    },
+    {
+      "path": "assets/vox.vox",
+      "bytes": 33604,
+      "sha256": "37f7be5cdb18689f62867b933a86e7a179381fc28abc25f86acefcb1d907de11"
+    },
+    {
+      "path": "Data.txt",
+      "bytes": 127,
+      "sha256": "478e20816a9cfc4dea6b3bbdc3e16c5a891174eac5c588c570d5d3053921221a"
+    },
+    {
+      "path": "image.png",
+      "bytes": 8744,
+      "sha256": "fd52aacd89bfdb5de43e5dee0fe69aec081e5fdd73c69a106ac94f5c36735283"
+    },
+    {
+      "path": "project.myengine.json",
+      "bytes": 133,
+      "sha256": "577c4aa6935c47b6458676b5ca4b6ea4d884f0a145841515fce41df9dcb3da95"
+    },
+    {
+      "path": "scenes/main.json",
+      "bytes": 3665,
+      "sha256": "abd33b8f4380d63a65da09b5c5152f5ecbb22e99a1378743bcdf10c2e36498eb"
+    },
+    {
+      "path": "scripts/hzchtozascript.blueprint.json",
+      "bytes": 2359,
+      "sha256": "686fa36b8a24079d233c44965b5538c70a75b1568001c6544d9aa8eb7bbd674f"
+    },
+    {
+      "path": "scripts/hzchtozascript.py",
+      "bytes": 715,
+      "sha256": "68666812f5eeb19471da1a2d89d527b049662f064b33f55f48cbf8a7f51c82a6"
+    }
+  ]
+}

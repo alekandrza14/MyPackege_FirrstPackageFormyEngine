@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "nodes": [
+    {
+      "id": "1",
+      "type": "Update",
+      "x": 40,
+      "y": 50,
+      "params": {}
+    },
+    {
+      "id": "2",
+      "type": "DeltaTime",
+      "x": 40,
+      "y": 250,
+      "params": {}
+    },
+    {
+      "id": "3",
+      "type": "Multiply",
+      "x": 300,
+      "y": 240,
+      "params": {
+        "a": 30,
+        "b": 1
+      }
+    },
+    {
+      "id": "4",
+      "type": "Rotate",
+      "x": 590,
+      "y": 60,
+      "params": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "5",
+      "type": "Move",
+      "params": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 0
+      },
+      "x": 683.0,
+      "y": 353.0
+    },
+    {
+      "id": "6",
+      "type": "Character",
+      "params": {
+        "mode": "walk"
+      },
+      "x": 204.0,
+      "y": 481.0
+    },
+    {
+      "id": "7",
+      "type": "Spawn",
+      "params": {
+        "model": "assets/Cube.obj",
+        "script": "",
+        "x": 0,
+        "y": 2,
+        "z": 0
+      },
+      "x": 1105.0,
+      "y": 142.0
+    },
+    {
+      "id": "8",
+      "type": "Compare",
+      "params": {
+        "a": 0,
+        "b": 0
+      },
+      "x": 81.0,
+      "y": 639.0
+    },
+    {
+      "id": "9",
+      "type": "Branch",
+      "params": {
+        "condition": true
+      },
+      "x": 50.0,
+      "y": 235.0
+    },
+    {
+      "id": "10",
+      "type": "Branch",
+      "params": {
+        "condition": true
+      },
+      "x": 836.0,
+      "y": 147.0
+    },
+    {
+      "id": "11",
+      "type": "LoadScene",
+      "params": {
+        "path": "scenes/main.json"
+      },
+      "x": 753.0,
+      "y": 603.0
+    },
+    {
+      "id": "12",
+      "type": "KeyDown",
+      "params": {
+        "key": "Y"
+      },
+      "x": 595.0,
+      "y": 234.0
+    }
+  ],
+  "links": [
+    [
+      "1",
+      "next",
+      "4",
+      "in"
+    ],
+    [
+      "2",
+      "value",
+      "3",
+      "b"
+    ],
+    [
+      "3",
+      "value",
+      "4",
+      "y"
+    ],
+    [
+      "12",
+      "value",
+      "10",
+      "condition"
+    ],
+    [
+      "4",
+      "next",
+      "10",
+      "in"
+    ],
+    [
+      "10",
+      "true",
+      "7",
+      "in"
+    ]
+  ]
+}
